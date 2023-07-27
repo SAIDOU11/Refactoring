@@ -70,6 +70,15 @@ nav {
 }
 
 nav p {
+  margin-bottom: 0;
+}
+
+nav svg {
+  cursor: pointer;
+  width: 1em;
+}
+
+nav ul li a {
   display: block;
   padding: 0.2em;
   font-size: 1.8em;
@@ -110,7 +119,7 @@ ul.data li p {
   margin: 0.3em 0 1em;
 }
 
-ul.data li:lastchild p {
+ul.data li:last-child p {
   margin-bottom: 0;
 }
 
@@ -124,4 +133,12 @@ ul.secondary li p {
 
 main {
   border: 1px solid white;
+}
+
+body {
+  background: #303a52;
+}
+
+nav {
+  background: #2c354a;
 }
